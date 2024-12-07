@@ -7,7 +7,25 @@ export class AppController {
 
   @Get()
   @Render('index')
-  getHello() {
+  renderIndex() {
+    
+  }
+
+  @Get('/portfolio')
+  @Render('portfolio')
+  renderPortfolio(){
+
+  }
+
+  @Get('/about')
+  @Render('about')
+  renderAbout(){
+
+  }
+
+  @Get('/contact')
+  @Render('contact')
+  renderContact(){
     
   }
 }
