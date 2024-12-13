@@ -1,24 +1,45 @@
 {{#> app}}
  {{#*inline "content"}}
-  
-  <div class="card">
-    <div class="card-body">
-      <h1 class="card-title">Hello there —</h1>
-      <h5 class="card -title">I'm Cody. I'm a Software Developer focusing on back-end development</h5>
-      <p class="card-text">I enjoy building applications with NestJS. I built this website myself using a MVC architecture. 
-        I use <a href="https://handlebarsjs.com/">handlebars</a> to create dynamic web pages. 
-        I also use <a href="https://handlebarsjs.com/guide/#partials">partials</a> for layout design.</p>
-      <p>You are welcome to take a look at my <a href="https://www.codyobenson.com/portfolio">portfolio</a> to see my work.</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card border-top-0 border-bottom-0 border-start-0 border-end-0">
+          <div class="card-body">
+            <h1 class="card-title">Hello there —</h1>
+            <h5 class="card-title">I'm Cody. I'm a Software Developer focusing on Backend Development with NestJS</h5>
+            <p class="card-text">I enjoy building applications with NestJS! In the past I mostly worked with Java and the Spring framework, but after taking a break from writing code, I wanted to reskill myself in a new language.
+              Javascript is the most popular language in the world at the moment, so It seemed like a good skill to pick up. NestJS was a perfect match for my skills and career goals, so I went for it!</p>
+              
+              <p>As a fun side project, I've been learning some frontend development with Bootstrap. I used Bootstrap + <a href="https://handlebarsjs.com/">handlebars</a> to create this site. 
+              I also use <a href="https://handlebarsjs.com/guide/#partials">partials</a> for layout design.</p>
+            <p>You are welcome to take a look at my <a href="/portfolio">portfolio</a> to see my work.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img class="w-75" src="/zilker.jpg" alt="">
+      </div>
     </div>
-  </div>
-  
-  <div class="card" style="width: 18rem;">
-    <img src="/artsandscience.jpg" class="card-img-top" alt="">
+    
+
+
+  <div class="card mb-5 pb-4 border-top-0 border-bottom-0 border-start-0 border-end-0">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">some text about the cool card that i will be making but maybe not making idk what this even is who am i</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h1 class="card-title">NestJS Backend Development</h1>
+      <p>I focus on Backend API development using NestJS. Here is a list of my skills:</p>
     </div>
+    <div class="card-header">Skills</div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">NestJS</li>
+      <li class="list-group-item">TypeScript</li>
+      <li class="list-group-item">SQL</li>
+      <li class="list-group-item">REST</li>
+      <li class="list-group-item">Testing</li>
+      <li class="list-group-item">Git</li>
+      <li class="list-group-item">Teamwork</li>
+      <li class="list-group-item">Cross-team Collaboration</li>
+      <li class="list-group-item">OOP</li>
+      <li class="list-group-item">ESLint Code Formatting</li>
+    </ul>
   </div>
  {{/inline}}
 {{/app}}
