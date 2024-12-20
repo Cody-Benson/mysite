@@ -1,16 +1,12 @@
 {{#> app}}
  {{#*inline "content"}}
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-
-            </div>
-            <div class="col-sm-4">
+        <div class="container">
+            <div class="row">
                 <div class="card border-top-0 border-bottom-0 border-start-0 border-end-0">
                     <div class="card-body">
                         <h1 class="card-title mb-3">Contact Me</h1>
-                        <p class="card-text">If you would like to contact me feel free to send an email by filling out the form or send me a message on social media.</p>
-                        <p>Thank you for reaching out.</p>
+                        <p class="card-text">If you would like to contact me feel free to send an email to <strong>codyobenson@gmail.com</strong> or send me a message on social media.</p>
+                        <p>Thank you for reaching out.</p></p>
                         <ul class="list-unstyled d-flex mt-4">
                             <li class="">
                                 <a class="text-muted" href="https://www.linkedin.com/in/cody-benson/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a>
@@ -28,49 +24,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <form method="POST" action="/send">
-                    <div class="row">
-                        <div class="col">
-                            <div class="mb-3">
-                                <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" name="firstName">
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="row">
-                                 <div class="mb-3">
-                                    <label for="lastName" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" name="lastName">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your email message" name="message"></textarea>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-
-                        </div>
-                        <div class="col text-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                        <div class="col">
-                            
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-2">
-
-            </div>
         </div>
-    </div>
  {{/inline}}
 {{/app}}

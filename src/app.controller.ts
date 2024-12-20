@@ -28,16 +28,4 @@ export class AppController {
   renderContact(){
     
   }
-
-  @Post('/send')
-  async connect(@Body() body, @Req() request, @Res() response) {
-    const firstName = body.firstName;
-    const lastName = body.lastName;
-    const email = body.email;
-    const message = body.message;
-
-    const status = await this.appService.sendEmail(firstName,lastName,email,message);
-    console.log('email sent!')
-    return response.redirect('/contact');
-  }
 }
