@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+#ssh key
+mysite-key.pem
+
 # Logs
 logs
 *.log
