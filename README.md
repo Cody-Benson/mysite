@@ -24,12 +24,25 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+mysite is my personal portfolio website where I share a bit about myself and demonstrate my ability to use NestJS and Typescript.
 
 ## Project setup
 
+Install node.js and npm - https://nodejs.org/en/download
+
+Install NestJS
 ```bash
-$ npm install
+$ npm install -g @nestjs/cli
+```
+
+Install handlebars
+```bash
+$ npm install --save hbs
+```
+
+Build the project using npm
+```bash
+$ npm run build
 ```
 
 ## Compile and run the project
@@ -43,19 +56,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Deployment
